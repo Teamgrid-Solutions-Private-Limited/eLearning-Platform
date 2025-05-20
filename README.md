@@ -38,25 +38,6 @@ A comprehensive platform for building, uploading, and managing SCORM (Sharable C
    npm install
    ```
 
-3. Create a directory for SCORM packages in the server:
-
-   ```
-   mkdir -p server/scorm-packages
-   ```
-
-4. Start MongoDB (if running locally):
-   ```
-   mongod --dbpath=/path/to/data/db
-   ```
-
-### Running the Application
-
-1. Start the backend server:
-
-   ```
-   node server/index.js
-   ```
-
 2. In a separate terminal, start the frontend development server:
 
    ```
