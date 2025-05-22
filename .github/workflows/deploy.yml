@@ -20,9 +20,9 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            sudo pm2 stop author-tool
+            pm2 stop author-tool
             cd /var/www/demos.godigitalalchemy.com/html/authoring-tool
             cd eLearning-Platform
             git pull origin main
-            sudo npm install
-            sudo pm2 start author-tool
+            npm install
+            pm2 start author-tool
