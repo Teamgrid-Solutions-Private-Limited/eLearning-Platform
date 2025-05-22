@@ -23,4 +23,3 @@ jobs:
             cd /var/www/demos.godigitalalchemy.com/html/authoring-tool
             cd eLearning-Platform
             git pull origin
-            npm install
