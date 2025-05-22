@@ -10,5 +10,6 @@ export default defineConfig({
 		fs: {
 			allow: [".."],
 		},
+    allowedHosts: ['demos.godigitalalchemy.com']
 	},
 });
