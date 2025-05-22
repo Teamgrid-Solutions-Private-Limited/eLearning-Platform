@@ -24,4 +24,3 @@ jobs:
             cd eLearning-Platform
             git pull origin
             which npm
-            npm install
