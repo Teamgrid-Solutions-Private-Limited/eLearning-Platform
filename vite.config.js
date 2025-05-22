@@ -7,9 +7,9 @@ export default defineConfig({
 	server: {
 		host: "localhost",
 		port: 5173,
-		// fs: {
-		// 	allow: [".."],
-		// },
-    // allowedHosts: ['demos.godigitalalchemy.com']
+		fs: {
+			allow: [".."],
+		},
+    allowedHosts: ['demos.godigitalalchemy.com']
 	},
 });
