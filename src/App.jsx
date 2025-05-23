@@ -40,7 +40,7 @@ function App() {
             <nav>
               <ul className={`nav-menu ${menuOpen ? 'active' : ''}`}>
                 <li>
-                  <Link to="/authoring-tool" onClick={closeMenu}>My Courses 9</Link>
+                  <Link to="/authoring-tool" onClick={closeMenu}>My Courses 10</Link>
                 </li>
                 <li>
                   <Link to="/authoring-tool/upload" onClick={closeMenu}>Upload SCORM</Link>
